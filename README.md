@@ -43,5 +43,5 @@ The RL algorithms significantly improved performance over greedy-based methods:
 
 
 ## Attribution
-The project was completed by three LSE students from the Department of Geography and Environment, the Department of Statistics.    
-I contributed 80% of the coding and 20% of the writing. It received a high distinction (96/100) in the ST455 Reinforcement Learning course.
+The project was completed by three LSE students from the Department of Geography and Environment, the Department of Statistics. I contributed 80% of the coding and 20% of the writing.     
+It received a high distinction (96/100) in the ST455 Reinforcement Learning course.
