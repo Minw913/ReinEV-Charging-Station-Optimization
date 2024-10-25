@@ -20,7 +20,7 @@ This project addresses the optimal placement of electric vehicle (EV) charging s
 - **Action:** Adding new stations, increasing station capacity, or relocating stations.
 - **Reward:** Utility difference before and after layout changes.
 
-## Evaluation Metrics
+### Evaluation Metrics
 | Metric         | Description                                                                                      | Ideal Outcome   |
 |----------------|--------------------------------------------------------------------------------------------------|-----------------|
 | **Score**      | Represents the comprehensive performance of the charging plan (CP) based on its utility.          | Higher is better|
@@ -30,7 +30,7 @@ This project addresses the optimal placement of electric vehicle (EV) charging s
 | **Charging Time**| The cumulative time spent charging within the road network.                                      | Lower is better |
 
 
-## Results
+### Results
 The RL algorithms significantly improved performance over greedy-based methods:
 | Algorithm       | Score  | Benefit | Cost   | Travel Time | Charging Time | Waiting Time |
 |-----------------|--------|---------|--------|-------------|---------------|--------------|
