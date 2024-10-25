@@ -7,7 +7,7 @@
 ---
 
 ## Project Overview
-This project addresses the optimal placement of electric vehicle (EV) charging stations in central London to support zero-emission policies. By framing the placement as a reinforcement learning (RL) task, this project aims to maximize utility by efficiently arranging charging stations to balance coverage benefits and time costs within budget constraints.
+This project addresses the optimal placement of electric vehicle (EV) charging stations in central London using [Open Charge Map data](https://map.openchargemap.io/#/search), to support zero-emission policies. By framing the placement as a reinforcement learning (RL) task, this project aims to maximize utility by efficiently arranging charging stations to balance coverage benefits and time costs within budget constraints.
 
 ### Key Contributions
 - **Formulated** charging station placement as an RL problem with agent, state, action, reward and policy.
@@ -20,7 +20,7 @@ This project addresses the optimal placement of electric vehicle (EV) charging s
 - **Action:** Adding new stations, increasing station capacity, or relocating stations.
 - **Reward:** Utility difference before and after layout changes.
 
-## Evaluation Metrics
+### Evaluation Metrics
 | Metric         | Description                                                                                      | Ideal Outcome   |
 |----------------|--------------------------------------------------------------------------------------------------|-----------------|
 | **Score**      | Represents the comprehensive performance of the charging plan (CP) based on its utility.          | Higher is better|
@@ -30,7 +30,7 @@ This project addresses the optimal placement of electric vehicle (EV) charging s
 | **Charging Time**| The cumulative time spent charging within the road network.                                      | Lower is better |
 
 
-## Results
+### Results
 The RL algorithms significantly improved performance over greedy-based methods:
 | Algorithm       | Score  | Benefit | Cost   | Travel Time | Charging Time | Waiting Time |
 |-----------------|--------|---------|--------|-------------|---------------|--------------|
@@ -43,5 +43,5 @@ The RL algorithms significantly improved performance over greedy-based methods:
 
 
 ## Attribution
-The project was completed by three LSE students from the Department of Geography and Environment, the Department of Statistics.    
-I contributed 80% of the coding and 20% of the writing. It received a high distinction (96/100) in the ST455 Reinforcement Learning course.
+The project was completed by three LSE students from the Department of Geography and Environment, the Department of Statistics. I contributed 80% of the coding and 20% of the writing.     
+It received a high distinction (96/100) in the ST455 Reinforcement Learning course.
