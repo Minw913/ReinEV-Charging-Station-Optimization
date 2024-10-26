@@ -2,7 +2,7 @@
 
 **Team Member:** Minwei Kong, Ruiming Wu, Mengqi Liu  
 **Supervisor:** Prof. Chengchun Shi, Department of Statistics, LSE    
-**Keywords:** electric vehicle charging station, location selection, reinforcement learning, spatial optimization  
+**Keywords:** electric vehicle charging station, spatial optimization, reinforcement learning 
 
 ---
 
