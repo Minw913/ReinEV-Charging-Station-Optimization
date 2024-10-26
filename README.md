@@ -7,7 +7,7 @@
 ---
 
 ## Project Overview
-This project addresses the optimal placement of electric vehicle (EV) charging stations in central London using [Open Charge Map data](https://map.openchargemap.io/#/search), to support zero-emission policies. By framing the placement as a reinforcement learning (RL) task, this project aims to maximize utility by efficiently arranging charging stations to balance coverage benefits and time costs within budget constraints.
+This project addresses the optimal placement of electric vehicle (EV) charging stations in central London using [Open Charge Map](https://map.openchargemap.io/#/search) data, to support zero-emission policies. By framing the placement as a reinforcement learning (RL) task, this project aims to maximize utility by efficiently arranging charging stations to balance coverage benefits and time costs within budget constraints.
 
 ### Key Contributions
 - **Formulated** charging station placement as an RL problem with agent, state, action, reward and policy.
